@@ -37,6 +37,19 @@ body {
     font-weight: 900;
 }
 
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.sign-up-1 {
+    border: 0;
+}
+
 .section-2 {
     background-color: #ffffff;
     color: black;
@@ -78,6 +91,9 @@ body {
     background-color: #ffffff;
     height: 200px;
     flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .action-box {
@@ -85,6 +101,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 28px;
+    border-radius: 11px;
+}
+
+.action-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sign-up-2 {
+    border-color: #f9faf8;
 }
 
 ul {

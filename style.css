@@ -27,12 +27,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 /* .hero-left, .hero-right {
     width: 400px;
     flex: 1 1 auto;
 } */
+
+.hero-title, .hero-desc {
+    margin-bottom: 10px;
+}
 
 .hero-title {
     font-size: 48px;

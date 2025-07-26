@@ -1,9 +1,10 @@
 body {
-   font-family: Roboto, serif;
-   background-color: #1f2937;
-   color: #ffffff;
-   display: flex;
-   flex-direction: column;
+    min-height: 100vh;
+    font-family: "Roboto", serif;
+    background-color: #1f2937;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -48,14 +49,14 @@ body {
 button {
     background-color: #3882f6;
     color: #f9faf8;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     padding: 5px;
     border-radius: 8px;
 }
 
 .sign-up-1 {
-    border: 0;
+    border-color: #2a3544;
 }
 
 .section-2 {

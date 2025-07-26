@@ -9,6 +9,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 16px 32px;
 }
 
@@ -86,6 +87,7 @@ button {
     width: 100px;
     height: 100px;
     border-radius: 11px;
+    border: 3px solid #e47f90;
 }
 
 .section-3 {

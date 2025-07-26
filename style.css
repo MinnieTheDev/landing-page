@@ -50,6 +50,9 @@ body {
 
 .action-box {
     background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {

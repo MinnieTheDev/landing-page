@@ -24,6 +24,13 @@ body {
 .section-2 {
     background-color: #ffffff;
     color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infos {
+    display: flex;
 }
 
 .section-3 {

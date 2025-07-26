@@ -29,6 +29,7 @@ body {
 }
 
 .hero-left, .hero-right {
+    width: 200px;
     flex: 1 1 auto;
 }
 

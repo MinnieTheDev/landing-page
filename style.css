@@ -36,6 +36,12 @@ body {
 .section-3 {
     background-color: rgb(185, 185, 185);
     color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    align-self: flex-end;
 }
 
 .section-4 {

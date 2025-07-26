@@ -11,6 +11,16 @@ body {
     justify-content: space-between;
 }
 
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-left, .hero-right {
+    flex: 1 1 auto;
+}
+
 .section-2 {
     background-color: #ffffff;
     color: black;

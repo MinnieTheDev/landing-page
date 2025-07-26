@@ -59,6 +59,19 @@ button {
     border-color: #2a3544;
 }
 
+.hero-right {
+    text-align: center;
+}
+
+.hero-right a {
+    font-size: 12px;
+    opacity: 70%;
+}
+
+.hero-right img {
+    border-radius: 10px;
+}
+
 .section-2 {
     background-color: #ffffff;
     color: black;

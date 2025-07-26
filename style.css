@@ -99,3 +99,8 @@ a {
 .footer {
     text-align: center;
 }
+
+.section-1, .section-2, .section-3, .section-4 {
+    height: 300px;
+    flex: 1 1 auto
+}

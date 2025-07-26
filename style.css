@@ -9,6 +9,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 0 16px;
 }
 
 .logo {
@@ -75,16 +76,19 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 16px;
 }
 
 .quote {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+    padding: 0 16px;
 }
 
 .author {
     align-self: flex-end;
+    padding: 0 16px;
 }
 
 .section-4 {
@@ -133,5 +137,6 @@ a {
 
 .section-1, .section-2, .section-3 {
     height: 300px;
-    flex: 1 1 auto
+    flex: 1 1 auto;
+    padding: 16px;
 }

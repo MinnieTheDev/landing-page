@@ -2,6 +2,13 @@ body {
    font-family: Roboto, serif;
    background-color: #1f2937;
    color: #ffffff;
+   display: flex;
+   flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
 }
 
 .section-2 {
@@ -21,6 +28,9 @@ body {
 ul {
     padding: 0;
     margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
 }
 
 a {

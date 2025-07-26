@@ -11,6 +11,16 @@ body {
     justify-content: space-between;
 }
 
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hero-desc, .header-links a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .section-1 {
     display: flex;
     justify-content: center;
@@ -21,6 +31,12 @@ body {
     flex: 1 1 auto;
 }
 
+.hero-title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
 .section-2 {
     background-color: #ffffff;
     color: black;
@@ -29,15 +45,27 @@ body {
     align-items: center;
 }
 
+.info-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
 .infos {
     display: flex;
 }
 
 .section-3 {
-    background-color: rgb(185, 185, 185);
-    color: black;
+    background-color: #e5e7eb;
+    color: #1f2937;
     display: flex;
     flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
 }
 
 .author {
